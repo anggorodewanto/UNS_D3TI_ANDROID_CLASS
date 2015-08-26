@@ -1,1 +1,2 @@
-# UNS_D3TI_ANDROID_CLASS
+# UNS D3 TI ANDROID CLASS
+This is a repository for student projects
