@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onButtonClick(View View){
         TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("Ini text dari code");
+        EditText inputText = (EditText) findViewById(R.id.editText);
+        textView.setText(inputText.getText());
     }
 }
