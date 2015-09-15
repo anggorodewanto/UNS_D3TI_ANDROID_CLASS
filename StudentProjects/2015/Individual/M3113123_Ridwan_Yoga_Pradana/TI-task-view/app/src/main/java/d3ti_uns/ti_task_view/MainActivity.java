@@ -1,9 +1,11 @@
 package d3ti_uns.ti_task_view;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,5 +35,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onButtonClick(View view){
+        EditText textView2 = (EditText) findViewById(R.id.editText);
+        TextView textView = (TextView) findViewById(R.id.textView);
+        textView.setText(textView2.getText());
     }
 }
