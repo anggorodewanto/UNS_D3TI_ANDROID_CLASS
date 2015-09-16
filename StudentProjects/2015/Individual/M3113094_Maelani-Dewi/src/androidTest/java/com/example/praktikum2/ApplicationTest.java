@@ -1,4 +1,4 @@
-package com.example.bocil;
+package com.example.praktikum2;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
