@@ -1,11 +1,9 @@
-package com.nidda.tioed.ratna_views;
+package com.nidda.tioed.ti_task_views2;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,10 +33,5 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    public void onButtonClick(View view){
-        TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("Ini dari code")
     }
 }

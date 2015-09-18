@@ -1,11 +1,11 @@
-package com.nidda.tioed.ratna_views;
+package com.nidda.tioed.praktikum_2;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,6 +13,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final EditText input     = (EditText)    findViewById(R.id.celcius);
+
+        button.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+
+                Double celcius= Double.parseDouble(input.getText().toString())  ;
+                Double farenheit    = ((celcius/5)*9+32);
+                outputf.setText( String.valueOf(farenheit) );
+
+            }
+
+        });
     }
 
     @Override
@@ -35,10 +49,5 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    public void onButtonClick(View view){
-        TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("Ini dari code")
     }
 }

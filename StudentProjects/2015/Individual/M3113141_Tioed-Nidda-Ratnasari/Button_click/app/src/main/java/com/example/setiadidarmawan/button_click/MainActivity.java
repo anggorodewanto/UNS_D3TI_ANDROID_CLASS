@@ -1,10 +1,11 @@
-package com.nidda.tioed.ratna_views;
+package com.example.setiadidarmawan.button_click;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -37,8 +38,10 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onButtonClick(View view){
+    public void onButtonClick(View view) {
         TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("Ini dari code")
+        EditText editText = (EditText) findViewById(R.id.editText);
+        textView.setText(editText.getText());
+
     }
 }
