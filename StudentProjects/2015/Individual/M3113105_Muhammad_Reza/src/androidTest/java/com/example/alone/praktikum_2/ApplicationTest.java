@@ -1,4 +1,4 @@
-package com.example.alone.views;
+package com.example.alone.praktikum_2;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
