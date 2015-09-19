@@ -1,0 +1,18 @@
+Nama Anggota Kelomopok : 
+Entry Anggraheny Pratiwi (M3113055)
+Febri Eko Saputro	 (M3113061)
+Insani Nur Hidayah	 (M3113078)
+Lintang Panjerina	 (M3113090)
+
+Materi :
+Explicit Intent dan Implicit Intent
+- Switch activity
+- Handle Back Navigation
+- Launch Map
+- Launch Browser
+
+Tugas : 
+Memunculkan Map dengan yang mana lokasinya
+dapat kita tentukan sendiri.
+
+
