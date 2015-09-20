@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nuriskandarz.praktikum_2" >
+    package="com.nuriskandarz.praktikumsuhu_2" >
 
     <application
         android:allowBackup="true"

@@ -1,4 +1,4 @@
-package com.nuriskandarz.praktikum_2;
+package com.nuriskandarz.praktikumsuhu_2;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
