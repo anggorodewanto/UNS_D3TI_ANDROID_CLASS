@@ -18,38 +18,49 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        LinearLayout layout = new LinearLayout(this);
+        Button button = new Button(this);
+
         final EditText edittext = new EditText(this);
-        LinearLayout ll = new LinearLayout(this);
-        Button tombol = new Button(this);
-        final TextView text = new TextView(this);
-        text.setText("0");
-        tombol.setText("Convert");
+        final TextView viewtext = new TextView(this);
+
+        viewtext.setText("0");
+        button.setText("CONVERT");
+
         edittext.setInputType(InputType.TYPE_CLASS_NUMBER);
-        LinearLayout.LayoutParams dimensi =  new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+
+        LinearLayout.LayoutParams style =  new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.MATCH_PARENT);
-        LinearLayout.LayoutParams tomboldimensi =  new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
+        layout.setLayoutParams(style);
+
+        LinearLayout.LayoutParams buttonstyle =  new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT);
-        LinearLayout.LayoutParams editdimensi =  new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+        button.setLayoutParams(buttonstyle);
+
+        LinearLayout.LayoutParams editstyle =  new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT);
-        LinearLayout.LayoutParams textdimensi =  new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+        edittext.setLayoutParams(editstyle);
+
+        LinearLayout.LayoutParams textstyle =  new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT);
-        tomboldimensi.gravity= Gravity.CENTER;
-        ll.setLayoutParams(dimensi);
-        edittext.setLayoutParams(editdimensi);
-        tombol.setLayoutParams(tomboldimensi);
-        text.setLayoutParams(textdimensi);
-        ll.setOrientation(LinearLayout.VERTICAL);
-        tombol.setOnClickListener(new View.OnClickListener() {
+        viewtext.setLayoutParams(textstyle);
+
+        buttonstyle.gravity= Gravity.CENTER;
+
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 float fahrenheit = Float.parseFloat(edittext.getText().toString());
-                text.setText(String.valueOf(fahrenheit * 9/5 + 32)+" Fahrenheit");
+                viewtext.setText(String.valueOf(fahrenheit * 9 / 5 + 32) + " Fahrenheit");
             }
         });
-        ll.addView(edittext);
-        ll.addView(tombol);
-        ll.addView(text);
-        setContentView(ll);
+
+        layout.addView(edittext);
+        layout.addView(button);
+        layout.addView(viewtext);
+
+        setContentView(layout);
         //setContentView(R.layout.activity_main);
     }
 
