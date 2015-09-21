@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Yusuf">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
+<!-- From: file:/C:/Users/se7en/Documents/GitHub/UNS_D3TI_ANDROID_CLASS/StudentProjects/2015/Individual/M3113155_Yusuf-Eka-Wiraswastawan/1_views/app/src/main/res/menu/menu_yusuf.xml -->
