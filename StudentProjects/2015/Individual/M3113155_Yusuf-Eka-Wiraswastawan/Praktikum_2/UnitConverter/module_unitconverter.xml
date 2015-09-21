@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_unitconverter" default="compile.module.unitconverter">
+  <dirname property="module.unitconverter.basedir" file="${ant.file.module_unitconverter}"/>
+  
+  <property name="module.jdk.home.unitconverter" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.unitconverter" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.unitconverter" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.unitconverter" value="-encoding UTF-8 -source 1.7 ${compiler.args}"/>
+  
+  <property name="unitconverter.output.dir" value="${module.unitconverter.basedir}/build/classes/production/UnitConverter"/>
+  <property name="unitconverter.testoutput.dir" value="${module.unitconverter.basedir}/build/classes/test/UnitConverter"/>
+  
+  <path id="unitconverter.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="unitconverter.module.production.classpath">
+    <path refid="${module.jdk.classpath.unitconverter}"/>
+  </path>
+  
+  <path id="unitconverter.runtime.production.module.classpath">
+    <pathelement location="${unitconverter.output.dir}"/>
+  </path>
+  
+  <path id="unitconverter.module.classpath">
+    <path refid="${module.jdk.classpath.unitconverter}"/>
+    <pathelement location="${unitconverter.output.dir}"/>
+  </path>
+  
+  <path id="unitconverter.runtime.module.classpath">
+    <pathelement location="${unitconverter.testoutput.dir}"/>
+    <pathelement location="${unitconverter.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.unitconverter">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.unitconverter">
+    <patternset refid="excluded.from.module.unitconverter"/>
+  </patternset>
+  
+  
+  <target name="compile.module.unitconverter" depends="compile.module.unitconverter.production,compile.module.unitconverter.tests" description="Compile module UnitConverter"/>
+  
+  <target name="compile.module.unitconverter.production" depends="register.custom.compilers" description="Compile module UnitConverter; production classes"/>
+  
+  <target name="compile.module.unitconverter.tests" depends="register.custom.compilers,compile.module.unitconverter.production" description="compile module UnitConverter; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.unitconverter" description="cleanup module">
+    <delete dir="${unitconverter.output.dir}"/>
+    <delete dir="${unitconverter.testoutput.dir}"/>
+  </target>
+</project>
