@@ -1,4 +1,4 @@
-package com.hanhan.t_views;
+package com.hanhan481.konversi;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
