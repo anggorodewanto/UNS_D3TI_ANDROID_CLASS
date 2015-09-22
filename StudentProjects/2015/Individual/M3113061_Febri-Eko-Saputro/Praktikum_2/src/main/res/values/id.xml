@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonid" type="id" />
+    <item name="textid" type="id" />
+    <item name="printid" type="id" />
+</resources>
