@@ -1,3 +1,5 @@
+package com.example.user.praktikum;
+
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -5,10 +7,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import com.example.user.praktikum.R;
-
-``package com.example.user.praktikum;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void ButtonClick(View view){
-        EditText teksedit = (EditText) findViewById(R.id.editText);
-        TextView text1 = (TextView) findViewById(R.id.textView);
-        text1.setText(teksedit.getText());
+    public void onButtonClick(View view){
+        EditText editText = (EditText) findViewById(R.id.editText);
+        TextView textView = (TextView) findViewById(R.id.textView);
+        textView.setText(editText.getText());
     }
 }
