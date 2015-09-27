@@ -1,4 +1,4 @@
-package com.example.toshiba.views;
+package com.alpha.myapplication;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
