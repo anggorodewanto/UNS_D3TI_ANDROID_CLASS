@@ -1,0 +1,3 @@
+membuat aplikasi launch map, yg ketika kita memasukkan/menginputkan daerah akan muncul pada app google maps menggunakan Implicit Intent
+
+Commit dan pull request folder “src” saja di dalam folder “Praktikum_3”
