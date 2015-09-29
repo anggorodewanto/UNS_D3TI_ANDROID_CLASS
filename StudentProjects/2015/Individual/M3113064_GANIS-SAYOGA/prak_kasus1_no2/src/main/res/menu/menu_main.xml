@@ -1,0 +1,26 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/btn_refresh"
+        android:title="Refresh"
+        android:onClick="goRefresh"/>
+
+    <item android:id="@+id/btn_stop"
+        android:title="Stop"
+        android:onClick="goStop"/>
+
+    <item android:id="@+id/btn_goback"
+        android:title="Back"
+        android:onClick="goBack"/>
+
+    <item android:id="@+id/btn_gofoward"
+        android:title="Forward"
+        android:onClick="goForward"/>
+</menu>
