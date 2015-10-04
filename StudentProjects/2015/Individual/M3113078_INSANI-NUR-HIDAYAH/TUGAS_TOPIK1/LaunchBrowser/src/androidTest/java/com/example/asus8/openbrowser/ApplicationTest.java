@@ -1,4 +1,4 @@
-package com.example.asus8.launchbrowser;
+package com.example.asus8.openbrowser;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
