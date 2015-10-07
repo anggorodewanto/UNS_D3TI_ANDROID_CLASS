@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+membuat aplikasi launch map, yg ketika kita memasukkan/menginputkan daerah akan muncul pada app google maps menggunakan Implicit Intent
+
+Commit dan pull request folder “src” saja di dalam folder “Praktikum_3”
+=======
+TUGAS
+
+Adding a Map to an Android app
+>>>>>>> f41946c017f1eed6964d35eb76925d1b1d35a896
