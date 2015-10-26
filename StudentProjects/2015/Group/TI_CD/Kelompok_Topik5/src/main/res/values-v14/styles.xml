@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Android 14 -->
+
+        <item name="android:windowBackground">@color/custom_theme_background</item>
+
+        <item name="android:editTextColor">#000000</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">#000000</item>
+        <item name="android:textColorTertiary">#000000</item>
+        <item name="android:textColorPrimaryInverse">#000000</item>
+        <item name="android:textColorSecondaryInverse">#000000</item>
+        <item name="android:textColorTertiaryInverse">#000000</item>
+
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+
+
+        <item name="colorPrimary">#003366</item>
+        <item name="colorPrimaryDark">#003366</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#303F9F</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#3F51B5</item>
+    </style>
+
+    <!--<style name="TextView1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="EditText" parent="@style/TextView1">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextView1.TextView2">
+        <item name="android:padding">50dp</item>
+    </style>-->
+
+</resources>
