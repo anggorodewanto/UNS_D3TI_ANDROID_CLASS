@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tugasbener</string>
+
+    <string name="hello">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hintTxtItem">Enter an item here ...</string>
+    <string name="lblBtnAdd">Add Item</string>
+    <string name="txtEmpty">List is empty</string>
+    <string name="lblBtnDel">Delete Selected Item</string>
+
+</resources>
