@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <EditText
+            android:id="@+id/website"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:ems="5">
+        </EditText>
+        <Button
+            android:id="@+id/runWebsite"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:text="RUN" />
+    </LinearLayout>
+
+</RelativeLayout>
