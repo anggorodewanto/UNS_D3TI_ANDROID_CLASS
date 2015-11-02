@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:id="@+id/btnkembali"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txthello"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="Calibri"
+        android:textColor="@color/text"
+
+        />
+
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txthello"
+        android:id="@+id/txthello2"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        android:fontFamily="Calibri"
+        android:textColor="@color/primary"
+
+        />
+
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texthello2"
+        android:id="@+id/txthello3"
+        android:textSize="40sp"
+        android:textStyle="underline"
+        android:fontFamily="Calibri"
+        android:textColor="@color/text"
+        />
+</RelativeLayout>
