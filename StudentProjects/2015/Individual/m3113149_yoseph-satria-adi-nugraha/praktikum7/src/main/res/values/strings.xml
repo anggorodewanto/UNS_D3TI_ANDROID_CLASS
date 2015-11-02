@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Seven Tema</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
