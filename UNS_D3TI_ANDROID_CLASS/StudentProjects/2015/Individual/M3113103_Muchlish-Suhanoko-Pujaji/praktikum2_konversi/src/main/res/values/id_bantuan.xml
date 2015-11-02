@@ -1,7 +1,0 @@
-<cfxml variable="REQUEST.Response" xmlns:soap="http://schemas.android.com/apk/res-auto">
-<?xml version="1.0" encoding="utf-8"?>
-    <soap:Envelope
-    <item name="editText1" type="id" />
-    <item name="text1" type="id" />
-</resources>
-</cfxml>

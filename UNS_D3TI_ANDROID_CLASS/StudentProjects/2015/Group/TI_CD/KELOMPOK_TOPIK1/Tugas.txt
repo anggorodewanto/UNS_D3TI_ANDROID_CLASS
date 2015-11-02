@@ -1,2 +1,0 @@
-Tugas
-"Membuat aplikasi percakapan 2 activity dengan Explicit Intent"

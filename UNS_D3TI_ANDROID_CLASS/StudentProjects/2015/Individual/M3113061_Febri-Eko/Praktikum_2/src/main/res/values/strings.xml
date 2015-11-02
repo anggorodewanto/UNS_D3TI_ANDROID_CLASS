@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Eko_Apl</string>
-
-    <string name="hello_world">Convert Celcius to Farenheit</string>
-    <string name="action_settings">Settings</string>
-</resources>
