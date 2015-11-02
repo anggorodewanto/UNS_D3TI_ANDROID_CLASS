@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="buckys_bg">#009900</color>
+    <color name="primary">#ffb62a23</color>
+    <color name="primary_dark">#502020</color>
+    <color name="text_primary">#ff00ff00</color>
+    <color name="text_secondary">#ffff0000</color>
+    <color name="actionBar">#5078ff</color>
+</resources>
