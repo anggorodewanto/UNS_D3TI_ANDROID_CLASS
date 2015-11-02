@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom_theme_background">#a8c5ff</color>
+    <color name="custom_theme_action">#0091EA</color>
+</resources>
