@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ffff5479</color>
+    <color name="textview1">#f7c9fff5</color>
+    <color name="background">#ffff8ac0</color>
+    <color name="background2">#ff814dff</color>
+    <color name="text">#ffffba37</color>
+    <color name="actionBar">#f8ff11</color>
+</resources>
+
