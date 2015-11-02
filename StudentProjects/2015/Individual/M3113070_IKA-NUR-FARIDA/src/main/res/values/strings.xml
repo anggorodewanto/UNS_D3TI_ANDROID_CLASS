@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 <resources>
     <string name="app_name">My Application</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>
+=======
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
+>>>>>>> 9a0b63e75630e1d7eda9b90d52fd2e86c57e4b89
