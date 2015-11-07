@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- mengambil style dari style yang dibawah dengan nama actionBar -->
+        <item name="actionBarStyle">@style/actionBar</item>
+    </style>
+
+    <style name="actionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- mengganti warna actionBar dengan warna yang sudah ditentukan tadi -->
+        <item name="background">@color/actionbar</item>
+    </style>
+
+</resources>
