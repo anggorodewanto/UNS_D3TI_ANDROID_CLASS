@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomView"
+    android:background="@color/background2">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back/Kembali"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:fontFamily="Calibri"
+        android:textColor="@color/teks1"
+
+        />
+
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:id="@+id/textView2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="Calibri"
+        android:textColor="@color/teks2"
+
+        />
+
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:id="@+id/textView3"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:fontFamily="Calibri"
+        android:textColor="@color/teks3"
+        />
+
+</LinearLayout>

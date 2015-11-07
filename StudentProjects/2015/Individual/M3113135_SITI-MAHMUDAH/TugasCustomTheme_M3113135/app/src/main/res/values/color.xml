@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background1">#836c6c</color>
+    <color name="background2">#837d79</color>
+    <color name="teks">#face0f18</color>
+    <color name="teks1">#e11717</color>
+    <color name="teks2">#edf12a</color>
+    <color name="teks3">#2be150</color>
+</resources>
