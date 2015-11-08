@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PengaturanWidget</string>
+    <string name="text">Label</string>
+    <string name="time">Time</string>
+    <string name="update_button">Update</string>
+    <string name="name">Name</string>
+    <string name="ok">OK</string>
+    <string name="action_settings" />
+
+</resources>
