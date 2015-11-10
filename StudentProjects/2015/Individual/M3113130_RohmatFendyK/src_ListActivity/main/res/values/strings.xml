@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">praktikum6</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hintitem">enter  here </string>
+    <string name="labelbuttontambah">add item</string>
+    <string name="txtempty">list is empty</string>
+    <string name="labelbuttondelete">delete selected item</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ff4678</color>
+    <color name="background">#befff8</color>
+    <color name="background2">#f9ffbf</color>
+    <color name="text">#ffacc5</color>
+    <color name="text2">#73a6ff</color>
+    <color name="text3">#54ff27</color>
+    <color name="text4">#b67eff</color>
+    <color name="actionbar">#ff0a91</color>
+</resources>

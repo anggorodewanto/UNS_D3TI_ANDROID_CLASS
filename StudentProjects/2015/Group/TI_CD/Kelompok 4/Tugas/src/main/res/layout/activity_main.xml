@@ -1,0 +1,74 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter task"
+        android:textSize="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/addTaskBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="        Task"
+        android:id="@+id/header"
+        android:layout_below="@+id/addTaskBtn"
+        android:background="#5e5e5e"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true" />
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter task"
+        android:textSize="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/addTaskBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="        Task"
+        android:id="@+id/header"
+        android:layout_below="@+id/addTaskBtn"
+        android:background="#5e5e5e"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true" />
+>>>>>>> 9a0b63e75630e1d7eda9b90d52fd2e86c57e4b89
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource
+<string name="hello">Hello World, MainActivity!</string>
+<string name="app_name">ListViewDeleteItems</string>
+<string name="hintTxtItem">Enter an item here ...</string>
+<string name="add">Add Item</string>
+<string name="txtEmpty">List is empty</string>
+<string name="delete">Delete Selected Items</string>
+</LinearLayout>
