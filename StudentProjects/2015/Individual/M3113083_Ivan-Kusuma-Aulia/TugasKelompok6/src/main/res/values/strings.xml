@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">ConfigureWidgetExample</string>
+    <string name="initial_text_label">Loading Label</string>
+    <string name="initial_time_label">Loading Time</string>
+    <string name="update_button_label">Update User</string>
+    <string name="user_name_label">User Name</string>
+    <string name="ok_label">OK</string>
+    <string name="action_settings" />
+
+</resources>
+
