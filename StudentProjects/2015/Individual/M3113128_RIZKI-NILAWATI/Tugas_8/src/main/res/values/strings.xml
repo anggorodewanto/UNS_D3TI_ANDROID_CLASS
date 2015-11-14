@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tugas_8</string>
+    <string name="appwidget_text">Widget Example</string>
+    <string name="add_widget">Add widget</string>
+</resources>
