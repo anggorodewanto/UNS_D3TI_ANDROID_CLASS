@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
@@ -7,12 +8,15 @@
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
 =======
+=======
+>>>>>>> 9bcb1ee2d8e6be1302c65f1846f3d44c306f3281
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
+<<<<<<< HEAD
 >>>>>>> 8db45b5cea6a230fa4caf7c986c806387699db05
 =======
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
@@ -22,3 +26,5 @@
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
 >>>>>>> 9a0b63e75630e1d7eda9b90d52fd2e86c57e4b89
+=======
+>>>>>>> 9bcb1ee2d8e6be1302c65f1846f3d44c306f3281

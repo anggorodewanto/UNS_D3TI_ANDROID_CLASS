@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <resources>
     <!-- Example customization of dimensions originally defined in res/values/dimens.xml
          (such as screen margins) for screens with more than 820dp of available width. This
@@ -7,12 +8,15 @@
     <dimen name="activity_horizontal_margin">64dp</dimen>
 </resources>
 =======
+=======
+>>>>>>> 9bcb1ee2d8e6be1302c65f1846f3d44c306f3281
 <resources>
     <!-- Example customization of dimensions originally defined in res/values/dimens.xml
          (such as screen margins) for screens with more than 820dp of available width. This
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
     <dimen name="activity_horizontal_margin">64dp</dimen>
 </resources>
+<<<<<<< HEAD
 >>>>>>> 8db45b5cea6a230fa4caf7c986c806387699db05
 =======
 <resources>
@@ -22,3 +26,5 @@
     <dimen name="activity_horizontal_margin">64dp</dimen>
 </resources>
 >>>>>>> 9a0b63e75630e1d7eda9b90d52fd2e86c57e4b89
+=======
+>>>>>>> 9bcb1ee2d8e6be1302c65f1846f3d44c306f3281

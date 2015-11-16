@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 package com.example.luby.gridview;
 
 import android.app.Activity;
@@ -36,6 +37,8 @@ public class MainActivity extends Activity {
 
 }
 =======
+=======
+>>>>>>> 9bcb1ee2d8e6be1302c65f1846f3d44c306f3281
 package com.example.luby.gridview;
 
 import android.app.Activity;
@@ -71,6 +74,7 @@ public class MainActivity extends Activity {
     }
 
 }
+<<<<<<< HEAD
 >>>>>>> 8db45b5cea6a230fa4caf7c986c806387699db05
 =======
 package com.example.luby.gridview;
@@ -109,3 +113,5 @@ public class MainActivity extends Activity {
 
 }
 >>>>>>> 9a0b63e75630e1d7eda9b90d52fd2e86c57e4b89
+=======
+>>>>>>> 9bcb1ee2d8e6be1302c65f1846f3d44c306f3281
