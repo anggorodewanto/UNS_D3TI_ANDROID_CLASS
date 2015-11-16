@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- Android 10 kebawah-->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+
+
+    </style>
+
+</resources>

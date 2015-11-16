@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -38,6 +39,8 @@
 
 </RelativeLayout>
 =======
+=======
+>>>>>>> 9bcb1ee2d8e6be1302c65f1846f3d44c306f3281
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -75,6 +78,7 @@
         android:layout_toLeftOf="@id/button"/>
 
 </RelativeLayout>
+<<<<<<< HEAD
 >>>>>>> 8db45b5cea6a230fa4caf7c986c806387699db05
 =======
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -115,3 +119,5 @@
 
 </RelativeLayout>
 >>>>>>> 9a0b63e75630e1d7eda9b90d52fd2e86c57e4b89
+=======
+>>>>>>> 9bcb1ee2d8e6be1302c65f1846f3d44c306f3281
