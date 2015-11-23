@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin" android:background="#09C">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_name_label"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/initial_text_label"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/update_button"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="@string/update_button_label"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_label"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/initial_time_label"/>
+
+</LinearLayout>
