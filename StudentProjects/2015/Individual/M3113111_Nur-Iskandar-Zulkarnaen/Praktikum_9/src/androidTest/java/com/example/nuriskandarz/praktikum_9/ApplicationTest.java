@@ -1,4 +1,4 @@
-package com.example.nuriskandarz.jsonparsing;
+package com.example.nuriskandarz.praktikum_9;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
