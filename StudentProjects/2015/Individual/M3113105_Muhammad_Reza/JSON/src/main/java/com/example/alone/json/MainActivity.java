@@ -113,31 +113,38 @@ public class MainActivity extends Activity {
         }
         @Override
         protected void onPostExecute(String result) {
-            TextView kata = (TextView) findViewById(R.id.text1);
+            Button parse = (Button)findViewById(R.id.tombol2);
+            final TextView kata = (TextView) findViewById(R.id.text1);
             kata.setText(hasilData);
-            TextView isp = (TextView) findViewById(R.id.isp);
-            TextView country = (TextView) findViewById(R.id.country);
-            TextView city = (TextView) findViewById(R.id.city);
-            TextView ip = (TextView) findViewById(R.id.ip);
-            String TAG_ISP = "isp";
-            String TAG_COUNTRY = "country";
-            String TAG_CITY = "city";
-            String TAG_IP = "ip";
-           JSONObject json = null;
-            try {
-                json = new JSONObject(hasilData);
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-            try {
-                isp.setText(json.getString(TAG_ISP));
-                country.setText(json.getString(TAG_COUNTRY));
-                city.setText(json.getString(TAG_CITY));
-                ip.setText(json.getString(TAG_IP));
-            } catch (JSONException e) {
-                // TODO: handle exception
-                e.printStackTrace();
-            }
+            parse.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    kata.setText("");
+                    TextView isp = (TextView) findViewById(R.id.isp);
+                    TextView country = (TextView) findViewById(R.id.country);
+                    TextView city = (TextView) findViewById(R.id.city);
+                    TextView ip = (TextView) findViewById(R.id.ip);
+                    String TAG_ISP = "isp";
+                    String TAG_COUNTRY = "country";
+                    String TAG_CITY = "city";
+                    String TAG_IP = "query";
+                    JSONObject json = null;
+                    try {
+                        json = new JSONObject(hasilData);
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    try {
+                        isp.setText("ISP : " + json.getString(TAG_ISP));
+                        country.setText("COUNTRY : " + json.getString(TAG_COUNTRY));
+                        city.setText("CITY : " + json.getString(TAG_CITY));
+                        ip.setText("IP : " + json.getString(TAG_IP));
+                    } catch (JSONException e) {
+                        // TODO: handle exception
+                        e.printStackTrace();
+                    }
+                }
+            });
             this.dialog.dismiss();
         }
     }

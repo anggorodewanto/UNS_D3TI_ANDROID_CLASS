@@ -28,10 +28,20 @@
         android:id="@+id/ip"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
     <Button
         android:id="@+id/tombol"
         android:text="Download"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/tombol2"
+        android:text="Parse"
+        android:layout_toRightOf="@+id/tombol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>
 
 </LinearLayout>
