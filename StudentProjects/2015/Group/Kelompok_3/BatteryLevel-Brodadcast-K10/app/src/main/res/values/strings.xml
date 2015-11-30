@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BatteryLevel-Brodadcast-K10</string>
+    <string name="battery_level">Battery level:</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
