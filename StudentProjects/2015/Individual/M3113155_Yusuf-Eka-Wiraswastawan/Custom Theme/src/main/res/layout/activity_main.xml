@@ -1,0 +1,34 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/background" >
+
+    <TextView
+        android:text="Custom View"
+        android:id="@+id/txtct"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        android:fontFamily="Calibri"
+        android:textColor="@color/textct" />
+
+    <Button
+        android:id="@+id/btntheme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Custom Theme" />
+
+    <Button
+        android:id="@+id/btnkeluar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout >

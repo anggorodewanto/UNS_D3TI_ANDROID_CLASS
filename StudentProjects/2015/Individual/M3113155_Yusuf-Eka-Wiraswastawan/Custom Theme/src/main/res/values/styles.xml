@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Ini mengambil style dari style yang dibawah dengan nama actionBar -->
+        <item name="android:actionBarStyle">@style/actionBar</item>
+        <item name="actionBarStyle">@style/actionBar</item>
+    </style>
+    <style name="actionBar" patent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Ini mengganti warna actionBar dengan warna yang sudah ditentukan tadi -->
+        <item name="android:background">@color/actionBar</item>
+        <item name="background">@color/actionBar</item>
+    </style>
+
+</resources>
