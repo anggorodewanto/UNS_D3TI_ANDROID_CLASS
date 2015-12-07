@@ -1,4 +1,4 @@
-package com.example.alone.json;
+package com.example.alone.mp3player;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
