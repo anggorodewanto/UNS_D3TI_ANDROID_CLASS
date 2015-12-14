@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sensor Camera</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="capture">Click</string>
+    <string name="not_found">No Camera Found</string>
+    <string name="take_photo">Touch on Screen, Take Picture</string>
+</resources>
