@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">tugas11</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- UI Elements -->
+    <string name="btn_capture">Click</string>
+
+    <!-- Toast Messages -->
+    <string name="camera_not_found">No camera hardware found</string>
+    <string name="take_photo_help">Touch anywhere on screen to take picture</string>
+</resources>
