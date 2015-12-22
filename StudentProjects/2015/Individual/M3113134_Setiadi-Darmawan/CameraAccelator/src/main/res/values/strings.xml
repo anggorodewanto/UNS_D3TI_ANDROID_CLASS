@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Camera Accelerator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="btn_capture">Cekrek</string>
+
+    <string name="camera_not_found">Tidak ditemukan kamera</string>
+    <string name="take_photo_help">Sentuh layar untuk memotret</string>
+
+</resources>
