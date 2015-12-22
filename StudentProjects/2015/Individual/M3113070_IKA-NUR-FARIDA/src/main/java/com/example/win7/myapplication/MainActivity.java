@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 package com.example.win7.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
@@ -52,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
 >>>>>>> 9bcb1ee2d8e6be1302c65f1846f3d44c306f3281
 =======
 >>>>>>> 96221baf653956e2971c838250949b1475d49392
+=======
+>>>>>>> 1178101a612ad988492ac1e65cd04cd8adcd5eb0
 package com.example.win7.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
@@ -97,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
         text1.setText(teksedit.getText());
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8db45b5cea6a230fa4caf7c986c806387699db05
@@ -151,3 +155,5 @@ public class MainActivity extends AppCompatActivity {
 >>>>>>> 9bcb1ee2d8e6be1302c65f1846f3d44c306f3281
 =======
 >>>>>>> 96221baf653956e2971c838250949b1475d49392
+=======
+>>>>>>> 1178101a612ad988492ac1e65cd04cd8adcd5eb0

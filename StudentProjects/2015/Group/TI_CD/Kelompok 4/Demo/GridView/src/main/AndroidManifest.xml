@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.luby.gridview" >
@@ -28,6 +29,8 @@
 >>>>>>> 9bcb1ee2d8e6be1302c65f1846f3d44c306f3281
 =======
 >>>>>>> 96221baf653956e2971c838250949b1475d49392
+=======
+>>>>>>> 1178101a612ad988492ac1e65cd04cd8adcd5eb0
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.luby.gridview" >
@@ -49,6 +52,7 @@
     </application>
 
 </manifest>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8db45b5cea6a230fa4caf7c986c806387699db05
@@ -79,3 +83,5 @@
 >>>>>>> 9bcb1ee2d8e6be1302c65f1846f3d44c306f3281
 =======
 >>>>>>> 96221baf653956e2971c838250949b1475d49392
+=======
+>>>>>>> 1178101a612ad988492ac1e65cd04cd8adcd5eb0
