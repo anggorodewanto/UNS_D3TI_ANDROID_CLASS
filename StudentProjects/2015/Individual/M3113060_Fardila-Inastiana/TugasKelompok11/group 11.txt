@@ -1,0 +1,12 @@
+KELOMPOK 11
+
+MATERI :
+	- Camera & Sensors
+	- Feature & Permission request
+	- Getting data from hardware
+	
+ANGGOTA : 
+	1. Eksan Setyawan	(M3113053)
+	2. Hafidha Nur Tartila	(M3113067)
+	3. Kalih Wanungputro	(M3113086)
+	4. Mahardhika Guntur S	(M3113095)
