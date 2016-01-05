@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Prakt13b</string>
+    <string name="action_setting">Setting</string>
+    <!--UI elements-->
+    <string name="btn_capture">Click</string>
+
+    <!--Toast Message-->
+    <string name="Camera_not_found">No Camera hardware found</string>
+    <string name="take_photo_help">Touch anywhere on screen to take picture</string>
+
+</resources>
