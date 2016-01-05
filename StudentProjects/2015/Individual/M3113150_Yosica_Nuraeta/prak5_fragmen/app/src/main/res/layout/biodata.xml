@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nama saya Willfa Armila Puteri"
+    android:id="@+id/nama" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM saya M3113148"
+        android:id="@+id/nim"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas saya TIF 2013"
+        android:id="@+id/kelas"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jurusan DIII Teknik Informatika"
+        android:id="@+id/jurusan"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fakultas Matemtika dan Ilmu Pengetahuan Alam"
+        android:id="@+id/fakultas"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Universitas Sebelas Maret Surakarta"
+        android:id="@+id/universitas"/>
+
+
+</LinearLayout>
