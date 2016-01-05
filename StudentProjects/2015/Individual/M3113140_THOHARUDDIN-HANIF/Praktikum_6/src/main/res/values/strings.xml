@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">listview</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hintitem">Input Disini </string>
+    <string name="labelbuttontambah">Tambah</string>
+    <string name="txtempty">Kosong</string>
+    <string name="labelbuttondelete">Hapus</string>
+</resources>
